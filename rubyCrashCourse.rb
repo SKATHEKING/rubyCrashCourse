@@ -76,3 +76,29 @@ end
 returnAge(age)
 
 sayHi("Mateus")
+
+class Person
+  def walk
+    puts "walking..."
+  end
+  def eat
+    puts "eating..."
+  end
+  def sleep
+    puts "sleeping,,,"
+  end
+
+class superPerson < Person
+
+  def fly
+    puts "flying..."
+  end
+
+  def shootLazer
+    puts "shooting lazer from eyes..."
+  end
+
+  def punchWall
+    puts "wall gets punched and breaks..."
+  end
+end
